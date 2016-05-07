@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventFragment"
+    android:clickable="true"
+    android:background="#303030"
+    android:layout_marginBottom="?android:attr/actionBarSize">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/movietitle_year"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="New Text"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/moiveimg"
+        android:layout_width="170dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/movietitle_year"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/rating_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moiveimg"
+        android:paddingLeft="55dp"
+        android:textSize="16sp"
+        android:text="New Text" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating_num"
+        android:layout_marginLeft="30dp"
+        android:isIndicator="true"
+        android:paddingTop="10dp"
+        android:progressTint="#FFFF00"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp" />
+
+    <TextView
+        android:id="@+id/description_stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movietitle_year"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/moiveimg"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="New Text" />
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M4,31V8c0-2.2,1.8-4,4-4h12c2.2,0,4,1.8,4,4v23c0,2.2-1.8,4-4,4H8C5.8,35,4,33.2,4,31z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M20,7H8C7.4,7,7,7.4,7,8v21c0,0.6,0.4,1,1,1h12c0.6,0,1-0.4,1-1V8C21,7.4,20.6,7,20,7z" />
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M 14 31 C 14.8284271247 31 15.5 31.6715728753 15.5 32.5 C 15.5 33.3284271247 14.8284271247 34 14 34 C 13.1715728753 34 12.5 33.3284271247 12.5 32.5 C 12.5 31.6715728753 13.1715728753 31 14 31 Z" />
+    <path
+        android:fillColor="#546E7A"
+        android:pathData="M14,36V13c0-2.2,1.8-4,4-4h12c2.2,0,4,1.8,4,4v23c0,2.2-1.8,4-4,4H18C15.8,40,14,38.2,14,36z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M30,12H18c-0.6,0-1,0.4-1,1v21c0,0.6,0.4,1,1,1h12c0.6,0,1-0.4,1-1V13C31,12.4,30.6,12,30,12z" />
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M 24 36 C 24.8284271247 36 25.5 36.6715728753 25.5 37.5 C 25.5 38.3284271247 24.8284271247 39 24 39 C 23.1715728753 39 22.5 38.3284271247 22.5 37.5 C 22.5 36.6715728753 23.1715728753 36 24 36 Z" />
+    <path
+        android:fillColor="#E38939"
+        android:pathData="M24,40V18c0-2.2,1.8-4,4-4h12c2.2,0,4,1.8,4,4v22c0,2.2-1.8,4-4,4H28C25.8,44,24,42.2,24,40z" />
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M40,17H28c-0.6,0-1,0.4-1,1v20c0,0.6,0.4,1,1,1h12c0.6,0,1-0.4,1-1V18C41,17.4,40.6,17,40,17z" />
+    <path
+        android:fillColor="#A6642A"
+        android:pathData="M 34 40 C 34.8284271247 40 35.5 40.6715728753 35.5 41.5 C 35.5 42.3284271247 34.8284271247 43 34 43 C 33.1715728753 43 32.5 42.3284271247 32.5 41.5 C 32.5 40.6715728753 33.1715728753 40 34 40 Z" />
+</vector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <group
+        android:checkableBehavior="single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <item
+            android:id="@+id/drawer_add_bill"
+            android:icon="@drawable/add_database"
+            android:title="Add Bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <item
+            android:id="@+id/drawer_friends"
+            android:icon="@drawable/manager"
+            android:title="Friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <item
+            android:id="@+id/drawer_contacts"
+            android:icon="@drawable/contacts"
+            android:title="Add Contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <item android:title="">
+            <menu>
+                <item
+                    android:icon="@drawable/camera_addon"
+                    android:id="@+id/drawer_add_avatar"
+                    android:title="Add Avatar" />
+                <item
+                    android:icon="@drawable/unlock"
+                    android:id="@+id/drawer_logout"
+                    android:title="Logout" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 1 38 H 47 V 40 H 1 V 38 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 25 18 H 29 V 34 H 25 V 18 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 31 18 H 35 V 34 H 31 V 18 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 37 18 H 41 V 34 H 37 V 18 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 19 18 H 23 V 34 H 19 V 18 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 13 18 H 17 V 34 H 13 V 18 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 7 18 H 11 V 34 H 7 V 18 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 43 16 L 5 16 L 5 13 L 24 4 L 43 13 Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 5 34 H 43 V 36 H 5 V 34 Z" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M 25 16 H 29 V 18 H 25 V 16 Z" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M 31 16 H 35 V 18 H 31 V 16 Z" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M 37 16 H 41 V 18 H 37 V 16 Z" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M 19 16 H 23 V 18 H 19 V 16 Z" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M 13 16 H 17 V 18 H 13 V 16 Z" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M 7 16 H 11 V 18 H 7 V 16 Z" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M 3 36 H 45 V 38 H 3 V 36 Z" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M 24 9 C 25.1045694997 9 26 9.89543050034 26 11 C 26 12.1045694997 25.1045694997 13 24 13 C 22.8954305003 13 22 12.1045694997 22 11 C 22 9.89543050034 22.8954305003 9 24 9 Z" />
+</vector>

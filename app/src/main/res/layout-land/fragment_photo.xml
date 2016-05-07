@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:paddingStart="10dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/previous"
+            android:tint="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Add Photo"
+            android:paddingStart="15dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Add Your Avatar!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_above="@+id/ivImage"
+            android:layout_alignStart="@+id/ivImage" />
+
+        <Button
+            android:id="@+id/btnSelectPhoto"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/camera"
+            android:padding="10dp"
+            android:text="Select"
+            android:textSize="18sp"
+            android:layout_below="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_marginStart="60dp" />
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/add_image"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="70dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/picture"
+            android:text="Upload"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/ivImage"
+            android:layout_alignStart="@+id/btnSelectPhoto" />
+    </RelativeLayout>
+</LinearLayout>

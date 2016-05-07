@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--appcompat:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--android:id="@+id/menu_search"-->
+        <!--android:title="Search"-->
+        <!--appcompat:showAsAction="always"/>-->
+
+    <item
+        android:id="@+id/menu_friends"
+        android:title="Friends"
+        android:icon="@drawable/businesswoman"
+        appcompat:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_contacts"
+        android:title="Contacts"
+        android:icon="@drawable/contacts"
+        appcompat:showAsAction="always"/>
+
+</menu>
